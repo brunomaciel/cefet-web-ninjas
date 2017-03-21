@@ -1,0 +1,84 @@
+#logomarca {
+	width: 200px;
+}
+
+img, iframe {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+h1, h2 {
+	font-family: Courier;
+}
+
+a:link {
+	color: green;
+	text-decoration: none;
+}
+
+a:visited {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+a:active {
+	color: lime;
+	text-decoration: underline;
+}
+
+p {
+	text-align: justify;
+}
+
+a[href^="http"] {
+  	background: url(img/globo.png) no-repeat;
+	padding-left: 20px;
+}
+
+.nota {
+	opacity: 0.5;
+}
+
+.numpasso { /*deixando livre para usar a classe em qualquer tag (não só na tag strong, por exemplo)*/
+	font-size: 30px;
+	color: white;
+	background-color: black;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.nomepasso {
+	font-size: 20px;
+}
+
+body {
+	padding: 100px;
+	background-color: azure;
+	border-color: gray;
+	border-style: solid;
+}
+
+h1 {
+	color: steelblue;
+	text-decoration: underline;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+h2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+html {
+	background-color: white;
+}
